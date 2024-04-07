@@ -50,7 +50,7 @@
             // 
             this.price.AutoSize = true;
             this.price.Font = new System.Drawing.Font("Lucida Handwriting", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.price.Location = new System.Drawing.Point(100, 294);
+            this.price.Location = new System.Drawing.Point(136, 214);
             this.price.Name = "price";
             this.price.Size = new System.Drawing.Size(75, 21);
             this.price.TabIndex = 3;
@@ -61,7 +61,7 @@
             // 
             this.quantity.AutoSize = true;
             this.quantity.Font = new System.Drawing.Font("Lucida Handwriting", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.quantity.Location = new System.Drawing.Point(505, 171);
+            this.quantity.Location = new System.Drawing.Point(530, 163);
             this.quantity.Name = "quantity";
             this.quantity.Size = new System.Drawing.Size(117, 21);
             this.quantity.TabIndex = 4;
@@ -79,7 +79,7 @@
             // 
             // txtprice
             // 
-            this.txtprice.Location = new System.Drawing.Point(202, 292);
+            this.txtprice.Location = new System.Drawing.Point(228, 212);
             this.txtprice.Multiline = true;
             this.txtprice.Name = "txtprice";
             this.txtprice.Size = new System.Drawing.Size(69, 26);
@@ -89,7 +89,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Lucida Handwriting", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(504, 222);
+            this.label3.Location = new System.Drawing.Point(504, 210);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(144, 21);
             this.label3.TabIndex = 11;
@@ -97,7 +97,7 @@
             // 
             // txttotalprice
             // 
-            this.txttotalprice.Location = new System.Drawing.Point(654, 218);
+            this.txttotalprice.Location = new System.Drawing.Point(670, 207);
             this.txttotalprice.Multiline = true;
             this.txttotalprice.Name = "txttotalprice";
             this.txttotalprice.Size = new System.Drawing.Size(59, 27);
@@ -108,9 +108,9 @@
             this.txtCalculateyourorder.BackColor = System.Drawing.Color.Lime;
             this.txtCalculateyourorder.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.txtCalculateyourorder.Font = new System.Drawing.Font("Lucida Bright", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtCalculateyourorder.Location = new System.Drawing.Point(683, 292);
+            this.txtCalculateyourorder.Location = new System.Drawing.Point(670, 258);
             this.txtCalculateyourorder.Name = "txtCalculateyourorder";
-            this.txtCalculateyourorder.Size = new System.Drawing.Size(81, 29);
+            this.txtCalculateyourorder.Size = new System.Drawing.Size(74, 31);
             this.txtCalculateyourorder.TabIndex = 13;
             this.txtCalculateyourorder.Text = "Done";
             this.txtCalculateyourorder.UseVisualStyleBackColor = false;
@@ -121,9 +121,9 @@
             this.btnCancel.BackColor = System.Drawing.Color.Red;
             this.btnCancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCancel.Font = new System.Drawing.Font("Lucida Bright", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCancel.Location = new System.Drawing.Point(574, 294);
+            this.btnCancel.Location = new System.Drawing.Point(575, 258);
             this.btnCancel.Name = "btnCancel";
-            this.btnCancel.Size = new System.Drawing.Size(74, 27);
+            this.btnCancel.Size = new System.Drawing.Size(74, 31);
             this.btnCancel.TabIndex = 14;
             this.btnCancel.Text = "Cancel";
             this.btnCancel.UseVisualStyleBackColor = false;
@@ -131,17 +131,17 @@
             // 
             // txtquantity
             // 
-            this.txtquantity.Location = new System.Drawing.Point(628, 168);
+            this.txtquantity.Location = new System.Drawing.Point(670, 160);
             this.txtquantity.Multiline = true;
             this.txtquantity.Name = "txtquantity";
-            this.txtquantity.Size = new System.Drawing.Size(59, 26);
+            this.txtquantity.Size = new System.Drawing.Size(59, 27);
             this.txtquantity.TabIndex = 9;
             // 
             // lbl4
             // 
             this.lbl4.AutoSize = true;
             this.lbl4.Font = new System.Drawing.Font("Lucida Handwriting", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl4.Location = new System.Drawing.Point(18, 244);
+            this.lbl4.Location = new System.Drawing.Point(32, 174);
             this.lbl4.Name = "lbl4";
             this.lbl4.Size = new System.Drawing.Size(273, 21);
             this.lbl4.TabIndex = 16;
@@ -149,22 +149,22 @@
             // 
             // txtorderyouchoose
             // 
-            this.txtorderyouchoose.Location = new System.Drawing.Point(297, 242);
+            this.txtorderyouchoose.Location = new System.Drawing.Point(311, 172);
             this.txtorderyouchoose.Multiline = true;
             this.txtorderyouchoose.Name = "txtorderyouchoose";
-            this.txtorderyouchoose.Size = new System.Drawing.Size(100, 25);
+            this.txtorderyouchoose.Size = new System.Drawing.Size(100, 27);
             this.txtorderyouchoose.TabIndex = 17;
             this.txtorderyouchoose.TextChanged += new System.EventHandler(this.txtorderyouchoose_TextChanged);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Lucida Handwriting", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(18, 9);
+            this.label1.Font = new System.Drawing.Font("Lucida Handwriting", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(232, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(312, 24);
+            this.label1.Size = new System.Drawing.Size(403, 31);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Soma\'s Family Restaurant";
+            this.label1.Text = "Soma\'s Family Restaurant!";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // btnAdd
@@ -172,9 +172,9 @@
             this.btnAdd.BackColor = System.Drawing.Color.Lime;
             this.btnAdd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAdd.Font = new System.Drawing.Font("Lucida Bright", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAdd.Location = new System.Drawing.Point(266, 326);
+            this.btnAdd.Location = new System.Drawing.Point(263, 258);
             this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(84, 27);
+            this.btnAdd.Size = new System.Drawing.Size(74, 31);
             this.btnAdd.TabIndex = 18;
             this.btnAdd.Text = "Add";
             this.btnAdd.UseVisualStyleBackColor = false;
@@ -185,9 +185,9 @@
             this.button2.BackColor = System.Drawing.Color.Red;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Lucida Bright", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(170, 326);
+            this.button2.Location = new System.Drawing.Point(163, 259);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(74, 27);
+            this.button2.Size = new System.Drawing.Size(74, 31);
             this.button2.TabIndex = 19;
             this.button2.Text = "Clear";
             this.button2.UseVisualStyleBackColor = false;
@@ -206,9 +206,8 @@
             this.space.AutoSize = true;
             this.space.Location = new System.Drawing.Point(71, 71);
             this.space.Name = "space";
-            this.space.Size = new System.Drawing.Size(10, 13);
+            this.space.Size = new System.Drawing.Size(0, 13);
             this.space.TabIndex = 21;
-            this.space.Text = " ";
             // 
             // Menu
             // 
