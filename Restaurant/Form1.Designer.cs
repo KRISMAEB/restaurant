@@ -67,17 +67,17 @@
             // enter
             // 
             this.enter.AutoSize = true;
-            this.enter.Font = new System.Drawing.Font("Lucida Handwriting", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.enter.Location = new System.Drawing.Point(181, 127);
+            this.enter.Font = new System.Drawing.Font("Lucida Handwriting", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.enter.Location = new System.Drawing.Point(173, 155);
             this.enter.Name = "enter";
-            this.enter.Size = new System.Drawing.Size(121, 21);
+            this.enter.Size = new System.Drawing.Size(152, 24);
             this.enter.TabIndex = 2;
             this.enter.Text = "Enter a day:";
             this.enter.Click += new System.EventHandler(this.enter_Click);
             // 
             // tbt2
             // 
-            this.tbt2.Location = new System.Drawing.Point(308, 123);
+            this.tbt2.Location = new System.Drawing.Point(331, 153);
             this.tbt2.Name = "tbt2";
             this.tbt2.Size = new System.Drawing.Size(176, 30);
             this.tbt2.TabIndex = 10;
@@ -85,8 +85,9 @@
             // btnEnter
             // 
             this.btnEnter.BackColor = System.Drawing.Color.Lime;
+            this.btnEnter.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnEnter.Font = new System.Drawing.Font("Lucida Handwriting", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEnter.Location = new System.Drawing.Point(353, 159);
+            this.btnEnter.Location = new System.Drawing.Point(378, 189);
             this.btnEnter.Name = "btnEnter";
             this.btnEnter.Size = new System.Drawing.Size(80, 34);
             this.btnEnter.TabIndex = 11;
@@ -97,10 +98,10 @@
             // welcome
             // 
             this.welcome.AutoSize = true;
-            this.welcome.Font = new System.Drawing.Font("Lucida Handwriting", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.welcome.Location = new System.Drawing.Point(120, 59);
+            this.welcome.Font = new System.Drawing.Font("Lucida Handwriting", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.welcome.Location = new System.Drawing.Point(132, 81);
             this.welcome.Name = "welcome";
-            this.welcome.Size = new System.Drawing.Size(475, 27);
+            this.welcome.Size = new System.Drawing.Size(511, 27);
             this.welcome.TabIndex = 12;
             this.welcome.Text = "Welcome To Soma\'s Family Restaurant!";
             this.welcome.Click += new System.EventHandler(this.label2_Click);

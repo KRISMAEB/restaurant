@@ -13,9 +13,12 @@ namespace Restaurant
 
     public partial class Form1 : Form
     {
+        private Menu menu;
         public Form1()
         {
             InitializeComponent();
+            menu = new Menu();  
+           
         }
 
         private void price_Click(object sender, EventArgs e)
@@ -45,9 +48,12 @@ namespace Restaurant
 
         private void button1_Click(object sender, EventArgs e)
         {
-           if(tbt2.Text != string.Empty)
+          
+            if(tbt2.Text != string.Empty)
             {
                 MessageBox.Show("You choose a day successful");
+                this.Hide();
+                menu.Show();
             }
            else
             {
