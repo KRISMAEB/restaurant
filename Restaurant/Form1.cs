@@ -13,11 +13,14 @@ namespace Restaurant
 
     public partial class Form1 : Form
     {
-        private Menu menu;
+        public static Form1 form;
+            private string day;
+        private TextBox tb; 
         public Form1()
         {
             InitializeComponent();
-            menu = new Menu();  
+            form = this;
+            tb = tbt2;
            
         }
 
@@ -48,16 +51,23 @@ namespace Restaurant
 
         private void button1_Click(object sender, EventArgs e)
         {
-          
-            if(tbt2.Text != string.Empty)
+
+            string day = tbt2.Text;
+            string menuDay = Mem3.DisplayMenu(day);
+
+            if (menuDay == "")
             {
-                MessageBox.Show("You choose a day successful");
-                this.Hide();
-                menu.Show();
+                MessageBox.Show("Invalid Day Enter");
             }
-           else
+            else if (menuDay == "Linggo" || menuDay == "linggo")
             {
-                MessageBox.Show("Please choose a day you want");
+                Mem3.DisplayMenu(day);
+            }
+            else
+            {
+                Menu menu = new Menu(day);
+                menu.Show();
+                menu.displayOrder.Text = menuDay;
             }
         }
 
@@ -82,6 +92,11 @@ namespace Restaurant
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void tbt2_TextChanged(object sender, EventArgs e)
         {
 
         }

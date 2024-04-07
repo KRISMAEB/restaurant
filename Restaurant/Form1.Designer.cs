@@ -81,6 +81,7 @@
             this.tbt2.Name = "tbt2";
             this.tbt2.Size = new System.Drawing.Size(176, 30);
             this.tbt2.TabIndex = 10;
+            this.tbt2.TextChanged += new System.EventHandler(this.tbt2_TextChanged);
             // 
             // btnEnter
             // 
