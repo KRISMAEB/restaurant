@@ -10,6 +10,7 @@ using System.Windows.Forms;
 
 namespace Restaurant
 {
+
     public partial class Form1 : Form
     {
         public Form1()
@@ -41,5 +42,44 @@ namespace Restaurant
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+           if(tbt2.Text != string.Empty)
+            {
+                MessageBox.Show("You choose a day successful");
+            }
+           else
+            {
+                MessageBox.Show("Please choose a day you want");
+            }
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click_1(object sender, EventArgs e)
+
+        {
+            }
+
+        private void enter_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
+
+

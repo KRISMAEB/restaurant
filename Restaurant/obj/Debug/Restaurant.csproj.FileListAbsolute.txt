@@ -8,3 +8,4 @@ C:\Users\admin\source\repos\Restaurant\Restaurant\obj\Debug\Restaurant.csproj.Ge
 C:\Users\admin\source\repos\Restaurant\Restaurant\obj\Debug\Restaurant.csproj.CoreCompileInputs.cache
 C:\Users\admin\source\repos\Restaurant\Restaurant\obj\Debug\Restaurant.exe
 C:\Users\admin\source\repos\Restaurant\Restaurant\obj\Debug\Restaurant.pdb
+C:\Users\admin\source\repos\Restaurant\Restaurant\obj\Debug\Restaurant.Menu.resources
